@@ -1,0 +1,80 @@
+*{
+  font-family: 'Yanone Kaffeesatz', sans-serif;  
+  
+
+}
+body{
+    background-image: url(images/pocketsmall.jpg);
+	background-attachment: fixed;
+    margin-left: 5%;
+}
+h1{
+    color: white;   
+    font-weight: 200;
+    font-size: 50pt;   
+    position: fixed;
+    left: 100px;
+	top: 250px;
+    padding-left: 2%;
+    width: 550px;
+    background-color: rgba(255, 212, 148, .75);
+}
+
+section#bandwphotos {
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	width: 35%;
+}
+section#bandwphotos img{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+section#captions p{
+	color: rgba(255, 212, 148, 1.0);
+	background-color: black;
+	padding: 5px;
+	position: absolute;
+}
+	#headphones {
+		width: 350px;
+		top: 100px;
+		left: 820px;
+	}
+	#pencil {
+		top: 400px;
+		left: 820px;
+		width: 150px;
+	}
+	#phone{
+		top: 570px;
+		left: 1015px;
+		width: 180px;
+	}
+	#bikelight{
+		top: 820px;
+		left: 800px;
+		width: 145px;
+	}
+	#gloves{
+		width: 230px;
+		top: 670px;
+		left: 980px;
+	
+	}
+section#bigphotos {
+	width: 100%;
+	position: absolute;
+}
+section#bigphotos img{
+	position: absolute;
+	top: 0%;
+	left: 100%;
+	width: 75%;
+}
+
+
+section p{
+    margin-right: 4%;
+    
+}
