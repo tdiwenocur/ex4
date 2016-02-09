@@ -66,6 +66,7 @@ console.log("clicked pencil");
 $('#headphonecol').show();
 	$('#headphonecol').animate({
 		left: "0%",
+		opacity: 1,
 	}
 	
 	);
@@ -75,6 +76,7 @@ $('#headphonecol').click(function(){
 console.log("clicked body");
 $('#headphonecol').animate({
 	left: "100%",
+	opacity: 0,
 });
 });
 
@@ -84,6 +86,7 @@ console.log("clicked pencil");
 $('#pencilcol').show();
 	$('#pencilcol').animate({
 		left: "0%",
+		opacity: 1,
 	}
 	
 	);	
@@ -93,6 +96,7 @@ $('#pencilcol').click(function(){
 console.log("clicked body");
 $('#pencilcol').animate({
 	left: "100%",
+	opacity: 0,
 });
 });	
 //blow up the phone pic	
@@ -101,6 +105,7 @@ console.log("clicked pencil");
 $('#phonecol').show();
 	$('#phonecol').animate({
 		left: "0%",
+		opacity: 1,
 	}
 	
 	);	
@@ -110,6 +115,7 @@ $('#phonecol').click(function(){
 console.log("clicked body");
 $('#phonecol').animate({
 	left: "100%",
+	opacity: 0,
 });
 });
 
@@ -119,6 +125,7 @@ console.log("clicked pencil");
 $('#bikelightcol').show();
 	$('#bikelightcol').animate({
 		left: "0%",
+		opacity: 1,
 	}
 	
 	);	
@@ -128,6 +135,7 @@ $('#bikelightcol').click(function(){
 console.log("clicked body");
 $('#bikelightcol').animate({
 	left: "100%",
+	opacity: 0,
 });
 });
 //blow up the gloves pic	
@@ -136,6 +144,7 @@ console.log("clicked pencil");
 $('#glovescol').show();
 	$('#glovescol').animate({
 		left: "0%",
+		opacity: 1,
 	}
 	
 	);	
@@ -145,6 +154,7 @@ $('#glovescol').click(function(){
 console.log("clicked body");
 $('#glovescol').animate({
 	left: "100%",
+	opacity: 0,
 });
 });
 	
